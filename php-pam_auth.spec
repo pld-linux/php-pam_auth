@@ -3,6 +3,7 @@
 %define		extensionsdir	%(php-config --extension-dir 2>/dev/null)
 
 Summary:	%{_modname} - authenticate someone using PAM
+Summary(pl):	%{_modname} - uwierzytelnianie przy u¿yciu PAM
 Name:		php-%{_modname}
 Version:	0.4
 Release:	0.1
@@ -22,6 +23,12 @@ pam_auth is a simple standalone PHP module that contains exactly one
 function. This simple, yet magical function, allows you to
 authenticate someone using PAM. It's painless to use, and returns
 either true or false (with an error).
+
+%description -l pl
+pam_auth to prosty samodzielny modu³ PHP zawieraj±cy dok³adnie jedn±
+funkcjê. Ta prosta, lecz magiczna funkcja pozwala uwierzytelniæ kogo¶
+przy u¿yciu PAM. Jest bezbolesna w u¿yciu i zwraca true lub false
+(wraz z b³êdem).
 
 %prep
 %setup -q -c
