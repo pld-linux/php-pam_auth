@@ -13,7 +13,7 @@ Source0:	http://www.math.ohio-state.edu/~ccunning/pam_auth/%{_modname}-%{version
 # Source0-md5:	cc757d76194b1b5d41bfa74cfe6275df
 URL:		http://www.math.ohio-state.edu/~ccunning/pam_auth/
 BuildRequires:	php-devel >= 3:5.0.0
-BuildRequires:	rpmbuild(macros) >= 1.254
+BuildRequires:	rpmbuild(macros) >= 1.322
 %{?requires_php_extension}
 Requires:	%{_sysconfdir}/conf.d
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
