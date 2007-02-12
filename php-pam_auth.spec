@@ -1,6 +1,6 @@
 %define		_modname	pam_auth
 Summary:	%{_modname} - authenticate someone using PAM
-Summary(pl):	%{_modname} - uwierzytelnianie przy u¿yciu PAM
+Summary(pl.UTF-8):   %{_modname} - uwierzytelnianie przy uÅ¼yciu PAM
 Name:		php-%{_modname}
 Version:	0.4
 Release:	0.1
@@ -21,11 +21,11 @@ function. This simple, yet magical function, allows you to
 authenticate someone using PAM. It's painless to use, and returns
 either true or false (with an error).
 
-%description -l pl
-pam_auth to prosty samodzielny modu³ PHP zawieraj±cy dok³adnie jedn±
-funkcjê. Ta prosta, lecz magiczna funkcja pozwala uwierzytelniæ kogo¶
-przy u¿yciu PAM. Jest bezbolesna w u¿yciu i zwraca true lub false
-(wraz z b³êdem).
+%description -l pl.UTF-8
+pam_auth to prosty samodzielny moduÅ‚ PHP zawierajÄ…cy dokÅ‚adnie jednÄ…
+funkcjÄ™. Ta prosta, lecz magiczna funkcja pozwala uwierzytelniÄ‡ kogoÅ›
+przy uÅ¼yciu PAM. Jest bezbolesna w uÅ¼yciu i zwraca true lub false
+(wraz z bÅ‚Ä™dem).
 
 %prep
 %setup -q -c
