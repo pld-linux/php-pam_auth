@@ -1,6 +1,6 @@
 %define		_modname	pam_auth
 Summary:	%{_modname} - authenticate someone using PAM
-Summary(pl.UTF-8):   %{_modname} - uwierzytelnianie przy użyciu PAM
+Summary(pl.UTF-8):	%{_modname} - uwierzytelnianie przy użyciu PAM
 Name:		php-%{_modname}
 Version:	0.4
 Release:	0.1
